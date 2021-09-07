@@ -2,31 +2,37 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  #logo{
+      height: 50px;
+      padding-right: 10px;
+      margin-bottom: 20px;
+      border-right: 1px solid lightgray;
   }
   
-  header {
-    background-color: #e579e6;
-    height: 90px;
-    margin-bottom: 20px;
-  }
-  
-  footer {
+footer {
     background-color: #8801fe;
     height: 50px;
     margin-top: 20px;
   }
 
-  .container {
-    width: 920px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  
 .container {
     width: 920px;
     margin-left: auto;
     margin-right: auto;
   }
+  
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 5px 5px;
+}
 
   .hero-section {
     background-color: #e1d67a;
