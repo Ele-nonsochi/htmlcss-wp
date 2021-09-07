@@ -5,7 +5,7 @@
     font-family: 'Montserrat', sans-serif;
   }
 
-  #logo{
+#logo{
       height: 50px;
       padding-right: 10px;
       margin-bottom: 20px;
@@ -26,49 +26,71 @@ footer {
   
 nav ul li {
     display: inline-block;
+    margin-bottom: 10px;
 }
 
 nav ul li a {
     display: inline-block;
-    text-decoration: none;
+    list-style: none;
     padding: 5px 5px;
 }
 
-  .hero-section {
-    background-color: #e1d67a;
+.hero-section {
     height: 400px;
     margin-bottom: 20px;
-  }
+    position: relative;
+}
 
-  .container2 {
+.hero-section img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    
+}
+
+/*.decoration-banner img{
+    border-radius: 15px;
+    color: rgba(0, 0, 0, 0.3);
+}*/
+
+.img-word{
+    width: 50%;
+    color: white;
+    position: absolute;
+    bottom: 50px;
+    left: 30px;
+}
+
+
+.container2 {
     background-color: #0086ff;
     padding-bottom: 20px;
-  }
+}
 
-  .container2-top {
+.container2-top {
     background-color: #abcfe7;
     height: 90px;
     margin-bottom: 20px;
-  }
+}
 
-  .clearfix::after {
+.clearfix::after {
     content: "";
     display: table;
     clear: both;
-  }
+}
 
-  .col{
+.col{
      background-color: #abcfe7;
      height: 400px;
      width: 25%;
      float: left;
- }
+}
   
   
-  .col-center {
+.col-center {
     width: calc(50% - 40px);
     margin: 0 20px;
-  }
+}
   
   
   
